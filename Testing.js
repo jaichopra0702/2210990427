@@ -1,12 +1,22 @@
-Testing
-# Add a test file with security issues
-cat > test-findings.js << 'EOF'
-const password = "hardcoded_password";
-const query = "SELECT * FROM users WHERE id = " + userInput;
-const hash = require('md5')(password);
-EOF
+// Hardcoded API key
+const apiKey = "sk_live_51234567890abcdefghijklmno";
 
-git add test-findings.js
-git commit -m "test: add code to trigger semgrep findings"
-git push
-Final see Output
+// SQL injection vulnerability
+function getUserById(id) {
+  const query = "SELECT * FROM users WHERE id = " + id;
+  return database.query(query);
+}
+
+// Weak cryptography
+const crypto = require('crypto');
+const hash = crypto.createHash('md5').update(userPassword).digest('hex');
+
+// Command injection
+const childProcess = require('child_process');
+const output = childProcess.exec("ls " + userInput);
+
+// Hardcoded password
+const dbPassword = "mysecretpassword123";
+
+// Insecure random
+const randomToken = Math.random().toString();
