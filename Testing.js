@@ -22,6 +22,10 @@
 // [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
 // Hardcoded API key
 
+//Test all things
+// [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
+// Hardcoded API key
+
 //Test all things fully
 // [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
 // Hardcoded API key
