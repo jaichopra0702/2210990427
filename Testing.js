@@ -1,7 +1,14 @@
 // Hardcoded API key
 // [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
 // Hardcoded API key
+// [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
+// Hardcoded API key
+// [MOCK FIX] generic.secrets.security.detected-stripe-api-key.detected-stripe-api-key — placeholder, replace ANTHROPIC_API_KEY with a real key
+// Hardcoded API key
 const apiKey = "sk_live_51234567890abcdefghijklmno";
+
+// SQL injection vulnerability
+function getUserById(id) {
 
 // SQL injection vulnerability
 function getUserById(id) {
