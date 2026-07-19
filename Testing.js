@@ -20,7 +20,14 @@ function getUserById(id) {
 }
 
 // Weak cryptography
+// [MOCK FIX] javascript.lang.security.audit.md5-used-as-password.md5-used-as-password — placeholder, replace ANTHROPIC_API_KEY with a real key
+
+// Weak cryptography
 const crypto = require('crypto');
+const hash = crypto.createHash('md5').update(userPassword).digest('hex');
+
+// Command injection
+const childProcess = require('child_process');
 // [MOCK FIX] javascript.lang.security.audit.md5-used-as-password.md5-used-as-password — placeholder, replace ANTHROPIC_API_KEY with a real key
 
 // Weak cryptography
