@@ -74,6 +74,9 @@ const childProcess = require('child_process');
 // Weak cryptography
 const crypto = require('crypto');
 const hash = crypto.createHash('md5').update(userPassword).digest('hex');
+  // Weak cryptography
+const crypto = require('crypto');
+const hash = crypto.createHash('md5').update(userPassword).digest('hex');
 
 // Command injection
 const childProcess = require('child_process');
