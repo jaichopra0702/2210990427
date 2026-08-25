@@ -3,10 +3,25 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = 9876;
-const WINDOW_SIZE = 10;
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
 
-const numberWindow = {
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+1
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
   p: [],
   f: [],
   e: [],
@@ -38,7 +53,16 @@ app.get('/numbers/:numberid', async (req, res) => {
           'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
         }
       });
-      
+
+
+              'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
+
+
+              'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
+          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
+
+              'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
+
   
     if (response.data?.numbers && Array.isArray(response.data.numbers)) {
       fetchedNumbers = response.data.numbers;
