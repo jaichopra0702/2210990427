@@ -3,7 +3,12 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = 9876;
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
 const WINDOW_SIZE = 10;
 1
 const numberWindow = {
