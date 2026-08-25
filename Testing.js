@@ -1,0 +1,22 @@
+// Hardcoded API key
+const apiKey = "sk_live_51234567890abcdefghijklmno";
+
+// SQL injection vulnerability
+function getUserById(id) {
+  const query = "SELECT * FROM users WHERE id = " + id;
+  return database.query(query);
+}
+
+// Weak cryptography
+const crypto = require('crypto');
+const hash = crypto.createHash('md5').update(userPassword).digest('hex');
+
+// Command injection
+const childProcess = require('child_process');
+const output = childProcess.exec("ls " + userInput);
+
+// Hardcoded password
+const dbPassword = "mysecretpassword123";
+
+// Insecure random
+const randomToken = Math.random().toString();
