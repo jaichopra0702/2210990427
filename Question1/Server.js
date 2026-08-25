@@ -60,6 +60,12 @@ app.get('/numbers/:numberid', async (req, res) => {
       currSet.add(num);
     }
   }
+   const response = await axios.get(apiEndpoints[numberid], {
+        timeout: 1000,
+        headers: {
+          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0NzAxMjUzLCJpYXQiOjE3NDQ3MDA5NTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsInN1YiI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiJ9LCJlbWFpbCI6ImphaTQyNy5iZTIyQGNoaXRrYXJhLmVkdS5pbiIsIm5hbWUiOiJqYWkgY2hvcHJhIiwicm9sbE5vIjoiMjIxMDk5MDQyNyIsImFjY2Vzc0NvZGUiOiJQd3p1ZkciLCJjbGllbnRJRCI6IjljZTI5OTBjLTc1MGItNGViNS04YzAwLTIzNTM1YzMyODlmMiIsImNsaWVudFNlY3JldCI6ImhwaHhiTmV5dHV5UUhYbkUifQ.RtTylOFAqs2ZVQhxGOOPMtguqgsc5fpGDoPJeFpe-JQ'
+        }
+      });
 
   // Sliding window: append new numbers, then trim to window size
   const updatedWindow = [...prevWindow, ...newUnique].slice(-WINDOW_SIZE);
