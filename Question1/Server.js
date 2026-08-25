@@ -9,7 +9,13 @@ const app = express();
               'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
           'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
 
-const WINDOW_SIZE = 10;
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
 1
 const numberWindow = {
   p: [],
