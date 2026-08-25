@@ -17,7 +17,11 @@ const app = express();
 
               'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
 1
-const numberWindow = {
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+          'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
+              'Authorization': `Bearer ${process.env.AUTH_TOKEN}`
+
   p: [],
   f: [],
   e: [],
